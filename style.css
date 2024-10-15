@@ -1,0 +1,45 @@
+header{
+    color: white;
+    background-color: blue;
+}
+.container{
+    color: black;
+    background-color: lightgray;
+}
+.container2{
+    color: red;
+}
+.highlight{
+    color: green;
+}
+.main-content{
+    background-color: yellow;
+}
+.text{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#h2{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+.bold{
+   font-weight: bold;
+}
+#intro{
+    font-weight: 300;
+}
+#font{
+    font-family: Arial, sans-serif;
+}
+.custom-font{
+    font-family: Times New Roman, sans-serif;
+}
+.transform{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
