@@ -1,0 +1,98 @@
+nav{
+    background-color: aquamarine;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 90px;
+    color: black;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+}
+
+.responsive-box{
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+}
+
+.padded-text{
+    background-color: yellow;
+    padding: 20px;
+}
+
+.custom-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: green;
+}
+
+.border-box{
+    border: solid 2px;
+    border-color: black;
+}
+
+.rounded-border{
+    border: dotted 3px;
+    border-color: red;
+    border-radius: 15px;
+}
+
+.margin-text{
+    margin: 30px;
+}
+
+.custom-margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.inline-element{
+    display: inline;
+}
+
+a{
+    display: block;
+}
+
+
+.inline-block-element{
+    display: inline-block;
+}
+
+.hidden-element{
+    display: none;
+}
+
+.visible-element{
+    visibility: visible;
+}
+
+.invisible-element{
+    visibility: hidden;
+}
+
+.transparent-box{
+    background-color: blue;
+    opacity: 0.5;
+}
