@@ -1,0 +1,150 @@
+.static-box{
+    background-color: red;
+    position: static;
+    width: 150px;
+    height: 100px;
+}
+
+.relative-box{
+    background-color: orange;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+    width: 150px;
+    height: 100px;
+}
+
+.absolute-box{
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 150px;
+    height: 100px;
+}
+
+.fixed-box{
+    background-color: green;
+    position: fixed;
+    width: 150px;
+    height: 100px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky-box{
+    background-color: lightskyblue;
+    position: sticky;
+    top: 0px;
+    width: 150px; 
+    height: 100px 
+}
+
+.background-image{
+    width: 600px;
+    height: 500px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/Golden_Retriever_puppy_standing.jpg);
+    background-size: cover;
+}
+
+.background-image-repeat{
+    background-image: url(https://i.pinimg.com/originals/08/7e/d9/087ed9078f1b624a9ea1a0739a5421ac.jpg);
+    width: 300px;
+    height: 200px;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+.box1{
+    background-color: blue;
+    z-index: 1px;
+    width: 150px;
+    height: 100px;
+    position: static;
+}
+
+.box2{
+    background-color: plum;
+    z-index: 2px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+}
+
+#mother{
+    background-color: blueviolet;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#mother2{
+    background-color: purple;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#mother3{
+    background-color: pink;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mother4{
+    background-color: palevioletred;
+    width: 150px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.Child1{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+.Child2{
+    background-color: maroon;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.Child3{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.flex-items{
+    background-color: goldenrod;
+    width: 150;
+    height: 100px;
+    align-content: space-evenly;
+}
+
+.Child-1{
+    background-color: coral;
+    width: 150px;
+    height: 100px;
+}
+
+.Child-2{
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 100px;
+    flex-grow: 2px;
+}
+
+.Child-3{
+    background-color: crimson;
+    width: 150px;
+    height: 100px;
+}
